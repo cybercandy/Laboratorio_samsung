@@ -1,0 +1,55 @@
+<!DOCTYPE hmtl>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>CREATE ACCOUNT</title>
+            <!-- CSS -->
+            <link rel="stylesheet" href="style.css">
+
+        </head>
+
+        <body>
+            <div class="container">
+                    
+                <form id="registro" class="form" name="registro">
+                    <h1>Create Account</h1>
+
+                        <label for="nombre">Nombre</label>
+                            <div class="form-field">
+                                <input type="text" id="nombre" name="nombre" autocomplete="off"> 
+                                <small></small>
+                            </div>
+
+                        <label for="email">Email</label>
+                            <div class="form-field">
+                                <input type="email" id= "email" name="email" autocomplete="off"> 
+                                <img id="error-imagen" src="images/error-icon.svg" alt="Error" style="display: none;">
+                                <small></small>
+                                
+                            </div>
+
+                        <label for="clave">Clave</label>
+                            <div class="form-field">
+                                <input type="password" id= "clave" name="clave"> 
+                                <small></small>
+                            </div>
+
+                        <label for="confirmacion">Confirme su clave</label>
+                            <div class="form-field">
+                                <input type="password" id= "confirmacion" name="confirmacion">
+                                <small></small>
+                            </div>
+
+                        <br/>
+                            <div class="field button-field">
+                                <button id= "submit" type="submit">ENVIAR</button>
+                            </div>
+                        </form>
+                </div>
+            </section>
+
+            <!-- JavaScript -->
+            <script src="index.js"></script>
+        </body>
+    </html>
