@@ -11,3 +11,5 @@ En este repositorio se encuentran todas las prácticas de laboratorio realizadas
 **Nivel 3. Desarrollo Full Stack**
 
 [Practica de TypeScript](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Practica_TypeScript)
+
+[Practica de JSON](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Practica_JSON)
