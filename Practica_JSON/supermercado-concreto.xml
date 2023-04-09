@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercados>
+    <nombre>Supermercado A</nombre>
+    <direccion>Calle Real 12</direccion>
+    <poblacion>Madrid</poblacion>
+    <geolocalizacion>
+      <latitud>41º24'12.2 N</latitud>
+      <longitud>2º10'26.5 E</longitud>
+    </geolocalizacion>
+    <ofertas>
+        <oferta>
+          <id_oferta>1</id_oferta>
+          <nombre>Oferta en zumos</nombre>
+          <inicio_vigencia>15-04-2023</inicio_vigencia>
+          <fin_vigencia>15-05-2023</fin_vigencia>
+          <descuento>3x2</descuento>
+        </oferta>
+    </ofertas>
+    <productos>
+        <producto>
+          <nombre>Zumo de maracuyá</nombre>
+          <id_oferta>1</oferta>
+          <habitual>true</habitual>
+          <unidades_adquiridas>10</unidades>
+          <unidad_medida>Litro</unidad_medida>
+          <precio>2.8</precio>
+          <adquirido>true</adquirido>
+        </producto>
+        <producto>
+          <nombre>Barra de pan artesana</nombre>
+          <id_oferta>null</oferta>
+          <habitual>true</habitual>
+          <unidades_adquiridas>20</unidades>
+          <unidad_medida>Unidad</unidad_medida>
+          <precio>1.50</precio>
+          <adquirido>true</adquirido>
+        </producto>
+    </productos>  
+</supermercado>

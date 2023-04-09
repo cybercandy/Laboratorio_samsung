@@ -1,0 +1,101 @@
+{
+    "supermercados": [
+        {
+            "nombre": "Supermercado A",
+            "direccion": "Calle Real 12",
+            "poblacion": "Madrid",
+            "geolocalizacion": {
+                "latitud" : "41º24'12.2 N",
+                "longitud" : "2º10'26.5 E"
+            },
+            "ofertas": [
+                {
+                    "id_oferta":1, 
+                    "nombre": "Oferta en zumos", 
+                    "inicio_vigencia": "15-04-2023",
+                    "fin_vigencia": "15-05-2023",
+                    "descuento" : "3x2"
+                }
+            ],
+            "productos": [
+                {
+                    "nombre": "Zumo de maracuyá",
+                    "id_oferta": 1,
+                    "habitual": true,
+                    "unidades_adquiridas": 10,
+                    "unidad_medida": "Litro",
+                    "precio": 2.80,
+                    "adquirido": true
+                },
+                {
+                    "nombre": "Barra de pan artesana",
+                    "id_oferta": null,
+                    "habitual": true,
+                    "unidades_adquiridas": 25,
+                    "unidad_medida": "Unidad",
+                    "precio": 1.50,
+                    "adquirido": false
+                }
+            ]
+        },
+        {
+            "nombre": "Supermercado B",
+            "direccion": "Calle B, 456",
+            "poblacion": "Madrid",
+            "geolocalizacion": {
+                "latitud" : "41º24'30.2 N",
+                "longitud" : "2º11'10.5 E"
+            },
+            "ofertas": [
+                {
+                    "id_oferta": 2, 
+                    "nombre": "Oferta en frutas", 
+                    "inicio_vigencia": "01-06-2023",
+                    "fin_vigencia": "15-06-2023",
+                    "descuento" : "10%"
+                }
+            ],
+            "productos": [
+                {
+                    "nombre": "Manzanas",
+                    "id_oferta": 2,
+                    "habitual": false,
+                    "unidades_adquiridas": 15,
+                    "unidad_medida": "Kilogramo",
+                    "precio": 0.9,
+                    "adquirido": true
+                },
+                {
+                    "nombre": "Jamón Ibérico",
+                    "id_oferta": null,
+                    "habitual": true,
+                    "unidades_adquiridas": 0,
+                    "unidad_medida": "Kilogramo",
+                    "precio": 6.70,
+                    "adquirido": false
+                }
+            ]
+        },
+        {
+            "nombre": "Supermercado C",
+            "direccion": "Calle B, 789",
+            "poblacion": "Madrid",
+            "geolocalizacion": {
+                "latitud" : "41º24'30.2 N",
+                "longitud" : "2º12'10.5 E"
+            },
+            "ofertas": [],
+            "productos": [
+                {
+                    "nombre": "Agua de colonia",
+                    "id_oferta": null,
+                    "habitual": false,
+                    "unidades_adquiridas": 1,
+                    "unidad_medida": "Mililitros",
+                    "precio": 2.30,
+                    "adquirido": true
+                }
+            ]
+        }
+    ]
+}
