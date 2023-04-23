@@ -1,0 +1,30 @@
+#header{
+    margin:auto;
+    width:70%;
+    text-align: center;
+    padding: 10px;
+}
+#contenedor{
+    margin:auto;
+    width:70%;
+    text-align: center;
+}
+.boton{
+    margin-right: 8px;
+    padding:10px;
+    border-radius: 12px;
+    border: 2px solid #e7e7e7;
+    background-color: #e7e7e7; 
+    color: black;
+    transition-duration: 0.4s;
+}
+.boton:hover{
+    background-color:white ;
+}
+
+#loading {
+        display: none;
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px;
+    }

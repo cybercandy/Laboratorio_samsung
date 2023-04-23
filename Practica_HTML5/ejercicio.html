@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica HTML5</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="header">
+        <h1>Práctica HTML5 con la API Media Source</h1>
+    </div>
+    
+    <div id="contenedor">
+        <h3>Seleccione el vídeo que desea visuzalizar</h3>
+        
+        <input type="file" id="file" accept=".mp4"><br/><br/>
+        <video id="video" width="640" height="360" controls></video>
+        <div id="loading">Cargando...</div>
+    </div>
+
+    <br/>
+    <div id="contenedor">
+        <button id="play-button" class="boton">INICIAR</button>
+        <button id="pause-button" class="boton">PAUSAR</button>
+        <button id="volume-up-button" class="boton">SUBIR VOLUMEN</button>
+        <button id="volume-down-button" class="boton">BAJAR VOLUMEN</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
