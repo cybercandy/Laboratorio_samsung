@@ -15,3 +15,5 @@ En este repositorio se encuentran todas las prácticas de laboratorio realizadas
 [Practica de JSON](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Practica_JSON)
 
 [Practica de HTML5](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Practica_HTML5)
+
+[Practica de BBDD](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Practica_BBDD)
