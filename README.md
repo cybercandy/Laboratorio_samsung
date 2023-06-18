@@ -19,3 +19,5 @@ En este repositorio se encuentran todas las prácticas de laboratorio realizadas
 [Practica de BBDD](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Practica_BBDD)
 
 [Practica de PHP](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Practica_PHP)
+
+[Proyecto final](https://github.com/cybercandy/Laboratorio_samsung/tree/main/Proyecto_Final)

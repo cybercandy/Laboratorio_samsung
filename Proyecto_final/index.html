@@ -1,0 +1,80 @@
+<!DOCTYPE hmtl>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Register form</title>
+            <!-- CSS -->
+            <link rel="stylesheet" href="style.css">
+
+        </head>
+
+        <body>
+            <div class="container">
+                    
+                <form method="POST" action="form.php" id="registro" class="form" name="registro">
+                    <h1>Formulario de registro</h1>
+
+                        <label for="nombre">Nombre</label>
+                        <div class="form-field">
+                            <input type="text" id="nombre" name="nombre" class="form-input" autocomplete="off"> 
+                            <small></small>
+                        </div>
+
+                        <label for="primer_apellido">Primer apellido</label>
+                        <div class="form-field">
+                            <input type="text" id="primer_apellido" name="primer_apellido" class="form-input" autocomplete="off"> 
+                            <small></small>
+                        </div>
+
+                        <label for="segundo_apellido">Segundo apellido</label>
+                        <div class="form-field">
+                            <input type="text" id="segundo_apellido" name="segundo_apellido" class="form-input" autocomplete="off"> 
+                            <small></small>
+                        </div>
+
+                        <label for="email">Email</label>
+                        <div class="form-field">
+                            <input type="email" id= "email" name="email" class="form-input"autocomplete="off"> 
+                            <small></small>
+                                
+                        </div>
+
+                        <label for="login">Login</label>
+                        <div class="form-field">
+                            <input type="text" id= "login" name="login" class="form-input" autocomplete="off"> 
+                            <small></small>
+                                
+                        </div>
+
+                        <label for="clave">Clave</label>
+                        <div class="form-field">
+                            <input type="password" id= "clave" name="clave" class="form-input"> 
+                            <small></small>
+                        </div>
+
+                        <label for="confirmacion">Confirme su clave</label>
+                        <div class="form-field">
+                            <input type="password" id= "confirmacion" name="confirmacion" class="form-input">
+                            <small></small>
+                        </div>
+
+                        <br/>
+                            <div class="field button-field">
+                                <button id= "submit" name="submit" type="submit">ENVIAR</button>
+                            </div>
+
+                        <br/>
+                            
+                            <div class="field button-field">
+                                <button id= "consultar" name="consultar" style="display: none;" type="button" >CONSULTA</button>
+                            </div>
+            
+                        </form>
+                </div>
+            </section>
+
+            <!-- JavaScript -->
+            <script src="index.js"></script>
+        </body>
+    </html>
